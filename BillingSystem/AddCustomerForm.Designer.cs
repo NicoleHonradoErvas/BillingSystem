@@ -61,6 +61,7 @@
             btnClear.TabIndex = 26;
             btnClear.Text = "Clear";
             btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click_1;
             // 
             // txtAddress
             // 
