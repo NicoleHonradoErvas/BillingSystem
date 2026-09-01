@@ -30,14 +30,14 @@
         {
             lblTitle = new Label();
             dvgCustomers = new DataGridView();
-            button1 = new Button();
-            btnDelete = new Button();
             CustomerID = new DataGridViewTextBoxColumn();
             FullName = new DataGridViewTextBoxColumn();
             Address = new DataGridViewTextBoxColumn();
             ContactNumber = new DataGridViewTextBoxColumn();
             Email = new DataGridViewTextBoxColumn();
             Balance = new DataGridViewTextBoxColumn();
+            button1 = new Button();
+            btnDelete = new Button();
             btnLogout = new Button();
             label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dvgCustomers).BeginInit();
@@ -68,25 +68,6 @@
             dvgCustomers.Size = new Size(764, 302);
             dvgCustomers.TabIndex = 1;
             dvgCustomers.CellContentClick += dvgCustomers_CellContentClick;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(165, 400);
-            button1.Name = "button1";
-            button1.Size = new Size(121, 29);
-            button1.TabIndex = 2;
-            button1.Text = "Add Customer";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // btnDelete
-            // 
-            btnDelete.Location = new Point(323, 400);
-            btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(94, 29);
-            btnDelete.TabIndex = 3;
-            btnDelete.Text = "Delete";
-            btnDelete.UseVisualStyleBackColor = true;
             // 
             // CustomerID
             // 
@@ -130,6 +111,25 @@
             Balance.Name = "Balance";
             Balance.ReadOnly = true;
             // 
+            // button1
+            // 
+            button1.Location = new Point(165, 400);
+            button1.Name = "button1";
+            button1.Size = new Size(121, 29);
+            button1.TabIndex = 2;
+            button1.Text = "Add Customer";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // btnDelete
+            // 
+            btnDelete.Location = new Point(323, 400);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(94, 29);
+            btnDelete.TabIndex = 3;
+            btnDelete.Text = "Delete";
+            btnDelete.UseVisualStyleBackColor = true;
+            // 
             // btnLogout
             // 
             btnLogout.Location = new Point(455, 400);
@@ -145,9 +145,9 @@
             label1.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             label1.Location = new Point(292, 19);
             label1.Name = "label1";
-            label1.Size = new Size(210, 32);
+            label1.Size = new Size(190, 32);
             label1.TabIndex = 5;
-            label1.Text = "Search : __________";
+            label1.Text = "Search : ________";
             label1.Click += label1_Click_1;
             // 
             // CustomerListForm
