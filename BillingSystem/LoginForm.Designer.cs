@@ -55,7 +55,6 @@
             lblFullName.Size = new Size(82, 20);
             lblFullName.TabIndex = 1;
             lblFullName.Text = "Username :";
-
             // 
             // txtUsername
             // 
@@ -63,6 +62,8 @@
             txtUsername.Name = "txtUsername";
             txtUsername.Size = new Size(164, 27);
             txtUsername.TabIndex = 2;
+            txtUsername.Text = "Billing System v1.0 – Login (L.N.)";
+            txtUsername.TextChanged += txtUsername_TextChanged;
             // 
             // lblPassword
             // 
@@ -80,7 +81,6 @@
             txtPassword.PasswordChar = '*';
             txtPassword.Size = new Size(164, 27);
             txtPassword.TabIndex = 4;
-
             // 
             // btnSave
             // 
