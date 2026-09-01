@@ -184,7 +184,7 @@
             Controls.Add(lblFullName);
             Controls.Add(lblTitle);
             Name = "AddCustomerForm";
-            Text = "AddCustomerForm";
+            Text = "Billing System v1.0 AddCustomerForm (D.B)";
             ResumeLayout(false);
             PerformLayout();
         }
